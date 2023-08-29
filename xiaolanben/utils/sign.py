@@ -33,11 +33,8 @@ class sekiro:
             print(e)
             return
 
-
-a = sekiro()
-url = "/api.xiaolanben.com/xlb-gateway/blue-book/company/companyData?eid=qxca1785a9a97606cfa44545f33c576374&page=0&type=newMedias&pageSize=100"
-sign = a.sign_by_get(url)
-print(sign)
-
-# 输出结果
-# /api.xiaolanben.com/xlb-gateway/blue-book/company/companyData?eid=qxca1785a9a97606cfa44545f33c576374&page=0&type=newMedias&pageSize=100&h_t=1693280989495&h_v=h5_1129163840@0&h_sign=959c706c7098e2e1a9c099e094eda9c4
+if __name__ == "__main__":
+    test = sekiro()
+    url = "/api.xiaolanben.com/xlb-gateway/blue-book/company/companyData?eid=qxb10abf321eaffae4e6949b4fe38b7092&page=0&type=newMedias&pageSize=400"
+    sign = test.sign_by_get(url)
+    print(sign)
