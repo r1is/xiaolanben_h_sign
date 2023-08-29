@@ -1,7 +1,7 @@
 ## 小蓝本 h_sign 远程获取 
 
   
-** h_sign 的签名逻辑在这份代码里，整个js文件被obfuscator 混淆，不会配合AST反混淆，所以直接逆h_sign的算法更无从说起。 ** 
+**h_sign 的签名逻辑在这份代码里，整个js文件被obfuscator 混淆，不会配合AST反混淆，所以直接逆h_sign的算法更无从说起**
 `https://h5.u51.com/web.u51.com/storage/static-configs/xlbsiren0906.js` 
 
  
