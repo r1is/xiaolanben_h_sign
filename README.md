@@ -1,7 +1,7 @@
 
 h_sign 的签名逻辑在这份代码里，整个js文件被obfuscator 混淆，不会配合AST反混淆，所以直接逆h_sign的算法更无从说起。
 
-![./assets/1.png]
+![](./assets/1.png)
 
 
 ### JSRPC 调用 h_sign 签名算法
@@ -14,7 +14,7 @@ h_sign 的签名逻辑在这份代码里，整个js文件被obfuscator 混淆，
 _0x4af221[0x1] = _0x295807[_0x1f594e(0x4a0, 0x395, 0x418, 0x3b6, 0x282) + 'n'](_0x49a5d7)[_0x29667a(0x2ba, 0xb6, 0x152, 0x20e, 0x35c)];
 ```
 
-![[assets/xiaolanben01.png]]
+![](assets/xiaolanben01.png)
 
 调试代码，让流程走到这里，然后在控制台导出为全局函数：
 
