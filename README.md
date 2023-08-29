@@ -1,7 +1,7 @@
 
 h_sign 的签名逻辑在这份代码里，整个js文件被obfuscator 混淆，不会配合AST反混淆，所以直接逆h_sign的算法更无从说起。
 
-![[assets/Pasted image 20230829123840.png]]
+![[assets/1.png]]
 
 
 ### JSRPC 调用 h_sign 签名算法
@@ -38,7 +38,7 @@ b.url
 
 在burp中测试这个签名没有问题
 
-![[assets/Pasted image 20230828231553.png]]
+![[assets/2.png]]
 
 
 ### 搭建JSRPC
@@ -219,4 +219,4 @@ b.url
 https://$ip/business-demo/invoke?group=xiaolanben&action=sign&url=/api.xiaolanben.com/bluebook/api/v1/open/provinceAndCityList&pageId=1&pageSize=14&method=Get
 ```
 
-![[assets/Pasted image 20230828232715.png]]
+![[assets/3.png]]
