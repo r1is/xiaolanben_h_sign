@@ -33,12 +33,12 @@ b = sign(a)
 b.url
 ```
 
-![[assets/02l3gw.png]]
+![](assets/02l3gw.png)
 得到签名：`/api.xiaolanben.com/bluebook/api/v1/open/provinceAndCityList?h_t=1693235547629&h_v=h5_1129163840@0&h_sign=2c93a39b9cbad08585f4afdff5893da2`
 
 在burp中测试这个签名没有问题
 
-![[assets/2.png]]
+![](assets/2.png)
 
 
 ### 搭建JSRPC
@@ -219,4 +219,4 @@ b.url
 https://$ip/business-demo/invoke?group=xiaolanben&action=sign&url=/api.xiaolanben.com/bluebook/api/v1/open/provinceAndCityList&pageId=1&pageSize=14&method=Get
 ```
 
-![[assets/3.png]]
+![](assets/3.png)
