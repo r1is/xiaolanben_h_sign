@@ -5,7 +5,7 @@ class Sign:
      def __init__(self) -> None:
           self.cur = None
           if sys.platform == "darwin":
-                self.cur = cdll.LoadLibrary("./src/bestV8_mac_m.dylib")
+                self.cur = cdll.LoadLibrary("./src/src/bestV8_mac_intel.dylib")
           elif sys.platform == "linux":
                 self.cur = cdll.LoadLibrary("./src/bestV8_x64.so")
           elif sys.platform == "win32":
